@@ -1,0 +1,37 @@
+#container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+button{
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #00a896;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin:  20px;
+    color: #f0f3bd;
+}
+button:hover{
+    background-color: #05668d;
+    transform: scale(1.1);
+    transition: transform 0.3s ease , background-color 0.3s ease;
+}
+button:active{
+    background-color: #02c39a;
+}
+input{
+    font-size: 2rem;
+    width: 200px;
+    font-weight: bold;
+}
+#diceValue{
+    font-size: 25px;
+}
+#diceImages img{
+    width: 75px;
+    margin: 5px;
+}
